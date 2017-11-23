@@ -1,20 +1,14 @@
-import React, { PropTypes, Component } from 'react'
-import _ from 'lodash'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import google from './colors'
 
-const propTypes = {
-  name: PropTypes.string,
-  size: PropTypes.number,
-  radius: PropTypes.number,
-};
-
-const defaultProps = {
-  name: 'X',
-  size: 50,
-  radius: 0,
-};
-
 class ReactLetterAvatar extends React.Component {
+
+  static propTypes = {
+    name: PropTypes.string,
+    size: PropTypes.number,
+    radius: PropTypes.number,
+  };
 
   render(){
     let {name, size, radius} = this.props
@@ -48,8 +42,5 @@ class ReactLetterAvatar extends React.Component {
     )
   };
 };
-
-ReactLetterAvatar.propTypes = propTypes;
-ReactLetterAvatar.defaultProps = defaultProps;
 
 export default ReactLetterAvatar;

@@ -1,6 +1,6 @@
 {
-  "name": "react-letter-avatar",
-  "version": "1.0.2",
+  "name": "react-letter-avatar-o",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/react-letter-avatar.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "compile": "webpack -p --config webpack.production.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "DawnyWu",
+  "author": "wupinlang",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.3.26",
@@ -18,7 +18,7 @@
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
-    "lodash": "^4.5.1",
+    "prop-types": "^15.6.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "style-loader": "^0.13.0",
